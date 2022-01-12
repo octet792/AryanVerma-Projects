@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Records</title>
+        <link href="script.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="cont" align="top">
+        <header>
+            <h1 >Verzeo Major Project</h1>
+            <h3>Believe in urself</h3>
+        <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Verzeo</a>
+            <a href="#">All Courses</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About us</a>
+            <a href="#">Login/Signup</a>
+        </nav>
+        <div class="ct">
+            <h2>Task Records</h2>
+            <label>Task: </label>
+            <input class="input" type="text" id="inp" placeholder="Task..." required>
+            <br>
+            <label>Priority: </label>
+            <select class="input" id="priority" required>
+                <option value="High" selected>High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <br>
+            <br>
+            <span onclick="addItem()" class="add">Add</span>
+            <br>
+            <div class="filterList">
+                <label>Filter: </label>
+                <span class="filter" id="all" onclick="sortList('all')">ALL</span>
+                <br><br>
+                
+                <span class="filter" id="Low" onclick="sortList('Low')">LOW</span>
+                <br><br>
+                <span class="filter" id="Medium" onclick="sortList('Medium')">MEDIUM</span><br>
+                <br><br>
+                <span class="filter" id="High" onclick="sortList('High')">HIGH</span>
+            </div>
+            <div class="info"><label>Displayed tasks: <span id="inf">0</span></label></div>
+                   
+        </div>
+        
+        <div class="scr" align="center">
+            <ul id="todos" >
+                <li>Add a new Task! To complete the tasks just click on them. Edit them in the popup window. </li>
+            </ul>
+        </div>
+
+        
+
+        <script src="script.js"></script>
+
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact US</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Refund Policy</a>
+            <a href="#"> @2021 Verzeo IND</a> 
+     
+     
+     
+         </footer>
+        
+        
+    </body>
+</html>

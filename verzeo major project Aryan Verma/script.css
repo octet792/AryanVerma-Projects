@@ -1,0 +1,228 @@
+.cont{
+    width: 100%;
+    height: 500%;
+	
+	border-width: 5px;
+    padding: 4px;
+    border-radius: 3px;
+    overflow: visible;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(143, 17, 17);
+
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a:hover  {
+    background-color: rgb(211, 12, 161);
+    overflow: hidden;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left; 
+    color: rgb(199, 211, 38);
+}
+
+
+.ct {
+    background-color: #3682f4;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+label{
+    padding: 10px;
+    font-size: 26px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+    margin-inline: 50px;
+    margin-block: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 5px #888888;
+    background-color: #3682f4;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    width: auto;
+    position: relative;
+}
+
+h2 {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+h2:hover {
+    letter-spacing: 2px;
+}
+
+li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.task3{
+	width:380px;
+	height:100px;
+	margin-top:2px;
+	margin-left:10px;
+	background-color: red;
+	padding-left:5px;
+    
+}
+
+.task2{
+	width:380px;
+	height:100px;
+	margin-top:2px;
+	margin-left:10px;
+	background-color: #FFBF00;
+	padding-left:5px;
+    
+    
+}
+
+.task1{
+	width:380px;
+	height:100px;
+	margin-top:2px;
+	margin-left:10px;
+	background-color: green;
+	padding-left:5px;
+    
+}
+
+.input {
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.close {
+    position:absolute;
+    right: 0;
+    top:0;
+    margin: 5px;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    color: red;
+}
+
+.edit {
+    position:absolute;
+    right: 0;
+    bottom:0;
+    margin: 5px;
+    padding: 12px 16px 12px 16px;
+}
+
+.edit:hover {
+    color: blue;
+}
+
+.ct {
+    text-align: center;
+    justify-content: center;
+}
+
+.add {
+    background-color: green;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 10px;
+    padding: 5px 40px;
+    cursor: pointer;
+    
+}
+
+.filterList {
+    margin-top: 30px;
+    position: relative;
+    display: grid;
+    text-align: middle;
+    
+}
+
+.filter {
+    margin-inline: 20px;
+    background-color: rgb(0, 255, 8);
+    text-transform: uppercase;
+    color:white;
+    border-radius: 10px;
+    padding: 5px 40px;
+    cursor: pointer;
+    text-shadow: black;
+}
+
+.scr {
+    height: 400px;
+    overflow: auto;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+#todos {
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    
+
+}
+
+footer a:hover  {
+    background-color: rgb(211, 12, 161);
+    overflow: hidden;
+    color: black;
+}
+
